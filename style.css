@@ -1,0 +1,39 @@
+*{margin: 0;padding: 0}
+
+body{font-family: 'Kanit', sans-serif;background: }
+
+#topo{}
+
+header{background:;width:100%;height:360px;background-image: url('capa-2.jpg');background-position: center;background-size: cover;margin-top:2px}
+
+header h2{text-align:center;color:#E7A231;}
+
+#secao-1{width:100%;}
+
+article{width:90%;margin:25px auto;border-radius:2px;display:flex;flex-direction:column;}
+
+footer{height:300px;background:linear-gradient(to right,#2a4427,#e1003a,#d65b17);display:flex;justify-content:center;align-items:center;color:#E7A231;font-size:20px}
+
+
+
+
+
+@media(min-width:750px){
+     
+    header{width:100%;height:500px;}
+
+    header h2{text-align:right;margin-right: 5%;}
+
+    #secao-1{width:70%;margin: auto;background:}
+
+    article{width:100%;height:650px;flex-direction:row;justify-content:space-around}
+
+}
+
+
+@media(min-width:1000px){
+
+	header h2{font-size: 35px}
+	
+	footer {font-size:35px}
+}
